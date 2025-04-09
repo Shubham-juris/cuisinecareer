@@ -6,6 +6,15 @@ const Aboutsub = () => {
     <div>
 
 
+<div className="bg-gray-50 text-center py-10">
+      {/* Our Mission */}
+        <div>
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">ABOUT US</h2>
+          <div className="w-12 h-1 bg-gray-800 rounded-full mx-auto mb-0"></div> </div>
+      </div>
+
+
+
         {/* section1-the front about page */}
       <div className="bg-white py-12">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
@@ -102,10 +111,71 @@ const Aboutsub = () => {
     </div>
 
 
+{/* section4 that is te mission section */}
+
+<div className="bg-gray-50 text-center py-10">
+      {/* Our Mission */}
+        <div>
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">OUR MISSION</h2>
+          <div className="w-12 h-1 bg-gray-800 rounded-full mx-auto mb-0"></div> </div>
+      </div>
+
+      <div className='text-center mt-19'>
+      <ul className="list-decimal list-inside text-gray-700 leading-relaxed">
+            <li className="mb-2">
+              Inspire and assist individuals in finding meaningful work with local
+              food organizations, farms, businesses, schools, and institutions.
+            </li>
+            <li className="mb-2">
+              Support local, sustainable, and organic food projects and initiatives.
+            </li>
+            <li>
+              Empower more people to channel their energy, skills, and enthusiasm
+              towards the local food movement.
+            </li>
+          </ul>
+      </div>
+
+{/* section5-below the mission */}
+<div className="bg-gray-50 mt-16 text-center py-10">
+      {/* Our Mission */}
+        <div>
+          <h2 className="text-3xl font-bold text-gray-800 mb-2">JOIN THE MOVEMENT</h2>
+          <div className="w-12 h-1 bg-gray-800 rounded-full mx-auto mb-0"></div> </div>
+      </div>
+
+      <div className="bg-white py-16">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        {/* Left Side: Image */}
+        <div className="rounded-lg overflow-hidden shadow-md">
+          <img
+            src="cuisine17.jpg"
+            alt="Handshake"
+            className="w-full h-auto object-cover"
+          />
+          {/* Replace the placeholder URL with your actual image URL */}
+        </div>
+
+        {/* Right Side: Text Content */}
+        <div className="text-gray-700">
+          
+         
+          <p className="leading-relaxed text-lg">
+            With over 5,000 local food postings to date, Fusion-Foodies has a proven
+            track record of success in local food employment. Whether you're seeking
+            opportunities in local food, food security, food nonprofits, organic
+            farming, urban agriculture, or sustainable agriculture - Fusion-Foodies is
+            your gateway to meaningful work and impactful change in the food industry.
+          </p>
+        </div>
+      </div>
+    </div>
+
 
 
 
     </div>
+
 
 
 

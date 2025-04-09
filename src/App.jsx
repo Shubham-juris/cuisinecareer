@@ -9,6 +9,9 @@ import Subposition from './Pages/Subfront.jsx/Subposition';
 import Footer from './Components/Footer';
 import Aboutsub from './Pages/Aboutmain/Aboutsub';
 
+
+import Viewjobs from './Components/Viewjobs';
+
 function App() {
   return (
     <>
@@ -18,6 +21,7 @@ function App() {
      <Subposition/>
      <Footer/>
      <Aboutsub/>
+     <Viewjobs/>
     </>
   );
 }
