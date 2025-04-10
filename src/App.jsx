@@ -11,10 +11,14 @@ import Aboutsub from './Pages/Aboutmain/Aboutsub';
 
 
 import Viewjobs from './Components/Viewjobs';
+import Navbar from './Components/Navbar';
+import Front from './Components/Front';
 
 function App() {
   return (
     <>
+    <Navbar/>
+    <Front/>
      <Header/>
      <About/>
      <Subjoin/>
